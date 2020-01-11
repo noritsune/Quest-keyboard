@@ -1,0 +1,62 @@
+ManifestFileVersion: 0
+CRC: 3338975422
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b547a214b99860da5439ce8d302bc06a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 37141ca8d489e1f1357ab3928f098ef9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/MyModels/EachKey/BackSpace.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
+- "Assets/MyModels/EachKey/\u3042.fbx"
+- "Assets/MyModels/EachKey/\u3055.fbx"
+- "Assets/MyModels/EachKey/\u306A.fbx"
+- Assets/MyModels/EachKey/Dakuten.fbx
+- Assets/Oculus/VR/Meshes/GearVrController/GearVrController.fbx
+- "Assets/MyModels/EachKey/\u4F38\u3070\u3057\u68D2.fbx"
+- "Assets/MyModels/EachKey/\u307E.fbx"
+- "Assets/MyModels/EachKey/\u306F.fbx"
+- "Assets/MyModels/\u30C6\u30FC\u30D6\u30EB.fbx"
+- Assets/MyModels/EachKey/Enter.fbx
+- "Assets/MyModels/EachKey/\u5168\u6D88\u53BB.fbx"
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx
+- Assets/MyModels/EachKey/TypingGame.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx
+- "Assets/MyModels/EachKey/\u304B.fbx"
+- "Assets/MyModels/EachKey/\u3084.fbx"
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx
+- "Assets/MyModels/EachKey/\u308F.fbx"
+- Assets/MyModels/EachKey/Space.fbx
+- Assets/Oculus/VR/Meshes/OculusGoController/OculusGoController.fbx
+- "Assets/MyModels/EachKey/\u305F.fbx"
+- Assets/MyModels/Room.fbx
+- "Assets/MyModels/EachKey/\u3089.fbx"
+Dependencies:
+- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_mat0

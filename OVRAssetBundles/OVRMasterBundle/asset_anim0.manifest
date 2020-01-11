@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1587528081
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1cb3c93698d2efead581a12974b169a8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Animation/AnimationClip/KeyUp.anim
+- Assets/Animation/AnimationClip/KeyDown.anim
+- Assets/Animation/AnimationClip/Idle.anim
+Dependencies: []

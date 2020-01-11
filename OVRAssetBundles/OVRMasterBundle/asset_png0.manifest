@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 15845930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 850e7cd407314c653efd63f617e7ef6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/VR/Textures/OculusTouchForRift/touchController_albedo.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_msm.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_nml.png
+- Assets/MyModels/Texture/3213.png
+- Assets/MyModels/Texture/19.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_dif.png
+- Assets/MyModels/Texture/1428.png
+- Assets/MyModels/Room.fbm/3.png
+- Assets/MyModels/Texture/1432.png
+- "Assets/MyModels/\u30C6\u30FC\u30D6\u30EB.fbm/106.png"
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/selection_cylinder.png
+- Assets/MyModels/EachKey/TypingGame.fbm/2566.png
+- Assets/MyModels/Texture/2130.png
+- Assets/Oculus/VR/Textures/HandTracking/HandTracking_uvmap_2048.png
+- Assets/MyModels/Texture/2126.png
+- Assets/MyModels/Texture/3209.png
+Dependencies: []

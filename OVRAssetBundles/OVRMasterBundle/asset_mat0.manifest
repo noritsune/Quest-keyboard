@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 1474817209
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 71dbe3a72ee2eebfc67ba206a8b46e17
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2164263bd948184a9373784f776f453a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/MyModels/EachKey/Materials/Material_267.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/SoccerBlack.mat
+- Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat
+- Assets/MyModels/Materials/3.mat
+- Assets/MyModels/Materials/106.mat
+- Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat
+- Assets/MyModels/EachKey/Materials/Material_220.mat
+- Assets/MyModels/EachKey/Materials/Material_269.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+- Assets/MyModels/EachKey/Materials/Material_217.mat
+- Assets/Oculus/VR/Materials/BasicHandMaterial.mat
+- Assets/MyModels/EachKey/Materials/2566.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SelectionCylinder.mat
+- Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat
+- Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Plane_Mat.mat
+- Assets/MyModels/EachKey/Materials/Material_265.mat
+- Assets/MyModels/EachKey/Materials/2124.mat
+- Assets/MyModels/Materials/Material_308.mat
+- Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+- Assets/Oculus/VR/Meshes/GearVrController/Materials/malibuController_color_1024.mat
+- Assets/MyModels/EachKey/Materials/Material_271.mat
+- Assets/Oculus/SampleFramework/Usage/GuardianBoundarySystem/Materials/MAT_brick_01.mat
+Dependencies:
+- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_tif0
+- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_shader0
