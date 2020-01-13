@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2879622029
+CRC: 325933634
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,16 +7,17 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: asset_mat0
         Dependency_1: asset_fbx0
-        Dependency_2: asset_ttf0
-        Dependency_3: asset_controller0
+        Dependency_2: asset_controller0
+        Dependency_3: asset_shader0
     Info_1:
       Name: scene_questkeyboard
       Dependencies:
         Dependency_0: asset_resources
         Dependency_1: asset_mat0
         Dependency_2: asset_fbx0
-        Dependency_3: asset_controller0
-        Dependency_4: asset_prefab0
+        Dependency_3: asset_ttf0
+        Dependency_4: asset_controller0
+        Dependency_5: asset_prefab0
     Info_2:
       Name: asset_anim0
       Dependencies: {}
@@ -43,19 +44,16 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: asset_anim0
     Info_8:
-      Name: asset_psd0
-      Dependencies: {}
-    Info_9:
       Name: asset_tif0
       Dependencies: {}
-    Info_10:
+    Info_9:
       Name: asset_tga0
       Dependencies: {}
-    Info_11:
+    Info_10:
       Name: asset_prefab0
       Dependencies:
         Dependency_0: asset_mat0
         Dependency_1: asset_fbx0
-    Info_12:
+    Info_11:
       Name: asset_shader0
       Dependencies: {}

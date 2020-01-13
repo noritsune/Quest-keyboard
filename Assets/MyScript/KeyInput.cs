@@ -55,6 +55,7 @@ public class KeyInput : MonoBehaviour
              other.gameObject.tag == "ko" ))
         {
             animator.SetTrigger("KeyDownTrigger");
+            
 
             animator.SetTrigger("KeyUpTrigger");
 
@@ -162,7 +163,6 @@ public class KeyInput : MonoBehaviour
                     if (str == "　") str = "";
 
                     mainText.text += str;
-
                     break;
 
             }

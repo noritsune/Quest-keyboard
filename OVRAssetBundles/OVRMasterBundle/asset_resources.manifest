@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2429993310
+CRC: 1502439557
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 12df2d342995f79470280d72274f499c
+    Hash: b49d0eafb988a06aa7a95485e5d3fc9a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a1b80051e65ba15723ba81c55c1b37f7
+    Hash: 9251064146a247aa149a3093f196b764
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -35,6 +35,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
 - Class: 109
   Script: {instanceID: 0}
 - Class: 114
@@ -59,6 +61,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 134
   Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
 Assets:
@@ -73,14 +77,15 @@ Assets:
 - Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc
 - Assets/Resources/Materials/106.mat
 - Assets/Oculus/SampleFramework/Core/Video/Resources/Multiview Stereo.shader
+- Assets/Resources/FingerTip.prefab
 - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
 - Assets/Resources/OvrAvatarSettings.asset
-- Assets/Resources/FingerTip.prefab
 - Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
 - Assets/Resources/Room.prefab
 - Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader
 - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
 - Assets/Oculus/VR/Resources/Cubemap Blit.shader
+- Assets/Resources/Cylinder.prefab
 - Assets/Oculus/VR/Resources/OVRMRUnlit.shader
 - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
 - "Assets/Resources/\u30C6\u30FC\u30D6\u30EB.fbm/106.png"
@@ -89,6 +94,7 @@ Assets:
 - Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader
 - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
 - Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+- Assets/Resources/Cube.prefab
 - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
 - Assets/Resources/ONSPSettings.asset
 - Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader
@@ -97,6 +103,7 @@ Assets:
 - Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
 - Assets/Oculus/VR/Resources/Texture2D Blit.shader
 - Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader
+- "Assets/Resources/\u5EA7\u6A19\u7CFB.prefab"
 - Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader
 - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
 - Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png
@@ -126,10 +133,10 @@ Assets:
 - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
 - Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
 - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
-- Assets/Resources/GreenCapsule.prefab
+- Assets/Resources/Capsule.prefab
 - Assets/TextMesh Pro/Resources/TMP Settings.asset
 Dependencies:
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_mat0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_fbx0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_ttf0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_controller0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_controller0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_shader0

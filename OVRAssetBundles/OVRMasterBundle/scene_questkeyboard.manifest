@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3247281637
+CRC: 2799669589
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d9b818399ef4f46f1fbb6787353611c7
+    Hash: 1b320e9b50229adce60dfe2040efc9d9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3f34108f2ec38b676dc1030acfb3e15e
+    Hash: 227511edadce6af41d1c98eaae850b78
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -43,16 +43,22 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: cacb02c024467bf4d8f364f1f78877e4, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 10c59522aa406b4449131d24d60e47f7, type: 3}
 - Class: 114
@@ -64,21 +70,25 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: b5e092e669edd824a929b5f0aa08205a, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1a7e81f6670b34042b787d3a219e4245, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 4e6ff5087c3aa6948930eac12bacfc44, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 54c16b381e28e8d479237771d234dbae, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4ed125c92ca01d84a83cc6d56d021a44, type: 3}
+  Script: {fileID: 11500000, guid: af8303b8605d0c24a9b782a1106820ce, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  Script: {fileID: 11500000, guid: 0dd0313927f564f4bb0feaac3ce4ba30, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4ed125c92ca01d84a83cc6d56d021a44, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1db81fdac7638614785e36b0a6910aeb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
 - Class: 115
@@ -93,6 +103,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 222
   Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
 - Class: 224
   Script: {instanceID: 0}
 - Class: 258
@@ -100,8 +112,9 @@ ClassTypes:
 Assets:
 - Assets/Scenes/QuestKeyboard.unity
 Dependencies:
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_resources
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_mat0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_fbx0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_controller0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_resources
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_ttf0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_controller0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_prefab0

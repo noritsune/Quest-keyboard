@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1474817209
+CRC: 2331496169
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 71dbe3a72ee2eebfc67ba206a8b46e17
+    Hash: 69741143e70359610dd3b3584afdc86d
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2164263bd948184a9373784f776f453a
@@ -18,6 +18,7 @@ ClassTypes:
 Assets:
 - Assets/MyModels/EachKey/Materials/Material_267.mat
 - Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/SoccerBlack.mat
+- Assets/MyModels/Materials/319.mat
 - Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat
 - Assets/MyModels/Materials/3.mat
 - Assets/MyModels/Materials/106.mat
@@ -27,6 +28,7 @@ Assets:
 - Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
 - Assets/MyModels/EachKey/Materials/Material_217.mat
 - Assets/Oculus/VR/Materials/BasicHandMaterial.mat
+- Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat
 - Assets/MyModels/EachKey/Materials/2566.mat
 - Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SelectionCylinder.mat
 - Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat
@@ -40,7 +42,7 @@ Assets:
 - Assets/MyModels/EachKey/Materials/Material_271.mat
 - Assets/Oculus/SampleFramework/Usage/GuardianBoundarySystem/Materials/MAT_brick_01.mat
 Dependencies:
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_png0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_tif0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_tga0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_tif0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_shader0

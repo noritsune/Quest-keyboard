@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class HandTipsSetter : MonoBehaviour
 {
-    [SerializeField] OVRHand MYHand;
-    [SerializeField] OVRSkeleton MYSkelton;
+    [SerializeField] OVRHand ovrHand;
+    [SerializeField] OVRSkeleton ovrSkelton;
+    [SerializeField] OVRHand.Hand handType;
     private GameObject fingerTip;
     private GameObject[] fingerTips = new GameObject[5];
+    private string[] tagText = { "oya", "hito", "naka", "kusuri", "ko" };
+    private string[] tipText = { "あ", "い", "う", "え", "お" };
 
     // Start is called before the first frame update
     void Start()
@@ -19,30 +22,51 @@ public class HandTipsSetter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (MYHand.IsTracked && fingerTips[0] == null)
+        if (ovrHand.IsTracked && fingerTips[0] == null)
         {
-            for (int i = 0; i < 5; i++) //全関節にfingerTipを生成
+            for (int i = 0; i < 5; i++) //指先にfingerTipを生成
             {
-                fingerTips[i] = Instantiate(
-                    fingerTip,
-                    MYSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.position,
-                    MYSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.rotation * Quaternion.Euler(90, 0, 0)
-                );
-            }
+                
 
-            fingerTips[0].tag = "oya";
-            fingerTips[1].tag = "hito";
-            fingerTips[2].tag = "naka";
-            fingerTips[3].tag = "kusuri";
-            fingerTips[4].tag = "ko";
+                //左手関節は右手関節と逆向きなので反転
+                if (handType == OVRHand.Hand.HandLeft)
+                {
+                    fingerTips[i] = Instantiate(
+                        fingerTip,
+                        ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.position,
+                        ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.rotation * Quaternion.Euler(0, 0, 180)
+                    );
+                }
+                else
+                {
+                    fingerTips[i] = Instantiate(
+                        fingerTip,
+                        ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.position,
+                        ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.rotation
+                    );
+                }
+
+                //fingerTipのパラメーター設定
+                fingerTips[i].transform.Find("Sphere").tag = tagText[i];
+                fingerTips[i].GetComponentInChildren<TextMesh>().text = tipText[i];
+            }            
         }
 
-        if (MYHand.IsTracked)
+        if (ovrHand.IsTracked)
         {
             for (int i = 0; i < 5; i++) //fingerTipを移動
             {
-                fingerTips[i].transform.position = MYSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.position;
-                fingerTips[i].transform.rotation = MYSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.rotation * Quaternion.Euler(90, 0 , 0);
+                fingerTips[i].transform.position = ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.position;
+
+                //左手関節は右手関節と逆向きなので反転
+                if (handType == OVRHand.Hand.HandLeft)
+                {
+                    fingerTips[i].transform.rotation = ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.rotation * Quaternion.Euler(0, 0, 180);
+                }
+                else
+                {
+                    fingerTips[i].transform.rotation = ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_ThumbTip + i].Transform.rotation;
+                }
             }
         }
     }

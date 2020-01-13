@@ -3,7 +3,7 @@ CRC: 3369362301
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ff6e6a39be94d373d4935fcf546688ed
+    Hash: f01ce5e55651720baecafb97a3c6c1fa
   TypeTreeHash:
     serializedVersion: 2
     Hash: fdf6c57a251b9f6ec27bdd2fe01b033c
@@ -16,4 +16,4 @@ ClassTypes:
 Assets:
 - Assets/Animation/AnimationController/Key.controller
 Dependencies:
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_anim0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_anim0

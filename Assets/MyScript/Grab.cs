@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Grab : MonoBehaviour
 {
-    [SerializeField] OVRHand MYHand;
-    [SerializeField] OVRSkeleton MYSkelton;
+    [SerializeField] OVRHand ovrHand;
+    [SerializeField] OVRSkeleton ovrSkelton;
     [SerializeField] GameObject IndexSphere;
     public float GRAB_STRENGTH = 0.9f;
     private bool isIndexPinching;
@@ -14,13 +14,13 @@ public class Grab : MonoBehaviour
 
     void Update()
     {
-        isIndexPinching = MYHand.GetFingerIsPinching(OVRHand.HandFinger.Index);
+        isIndexPinching = ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Index);
 
-        ThumbPinchStrength = MYHand.GetFingerPinchStrength(OVRHand.HandFinger.Thumb);
-        if (MYHand.IsTracked)
+        ThumbPinchStrength = ovrHand.GetFingerPinchStrength(OVRHand.HandFinger.Thumb);
+        if (ovrHand.IsTracked)
         {
-            Vector3 indexTipPos = MYSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_IndexTip].Transform.position;
-            Quaternion indexTipRotate = MYSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_IndexTip].Transform.rotation;
+            Vector3 indexTipPos = ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_IndexTip].Transform.position;
+            Quaternion indexTipRotate = ovrSkelton.Bones[(int)OVRSkeleton.BoneId.Hand_IndexTip].Transform.rotation;
             IndexSphere.transform.position = indexTipPos;
             IndexSphere.transform.rotation = indexTipRotate;
         }
@@ -30,7 +30,7 @@ public class Grab : MonoBehaviour
     {
         if (other.tag == "grab") //つかめる物なら
         {
-            if (ThumbPinchStrength > 0.9) //つかんだ
+            if (ThumbPinchStrength > GRAB_STRENGTH) //つかんだ
             {
                 Debug.Log("つかんだ");
                 other.gameObject.transform.parent = IndexSphere.transform;

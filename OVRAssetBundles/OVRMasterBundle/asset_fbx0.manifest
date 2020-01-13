@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3338975422
+CRC: 2658073022
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b547a214b99860da5439ce8d302bc06a
+    Hash: e64238b0cd7eaadd3f876b01f99b6e2e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 37141ca8d489e1f1357ab3928f098ef9
@@ -58,5 +58,5 @@ Assets:
 - Assets/MyModels/Room.fbx
 - "Assets/MyModels/EachKey/\u3089.fbx"
 Dependencies:
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_png0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_mat0

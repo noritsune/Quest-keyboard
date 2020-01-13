@@ -101,11 +101,8 @@ public class TypingGameManageScript : MonoBehaviour {
         {
             if(isFirstGame)
             {
-                levelText.color = Color.black;
                 qText.color = Color.blue;
-                mainText.text = "青文字の単語を入力して\n" +
-                                "エンターを押してください\n" +
-                                "10レベルまであります\n" +
+                mainText.text = "青文字の単語を入力してEnterを押してください\n" +
                                 "[全消去キーで開始]";
                 isFirstGame = false;
             }
@@ -154,9 +151,7 @@ public class TypingGameManageScript : MonoBehaviour {
 
     public void Clear()
     {
-        levelText.color = Color.red;
         levelText.text = "クリア！";
-        qText.color = Color.black;
         qText.text = "　終了します";
         isGaming = false;
         level = 1;

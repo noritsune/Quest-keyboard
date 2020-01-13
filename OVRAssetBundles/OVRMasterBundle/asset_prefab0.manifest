@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3376286934
+CRC: 1758959424
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: abcd66a99c5ca298b39e38386a187837
+    Hash: 3b790ef912f686add1a9b9b992ff22af
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2c70386499fde9fd5d2a43b79919e396
+    Hash: 3b3d159bf00c28f8ebd62906b923da7e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -19,15 +19,25 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 23
   Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
 - Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
   Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
 - Class: 95
+  Script: {instanceID: 0}
+- Class: 102
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
@@ -44,17 +54,27 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: af8303b8605d0c24a9b782a1106820ce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0dd0313927f564f4bb0feaac3ce4ba30, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
 Assets:
+- Assets/MyPrefab/levelText.prefab
+- Assets/MyPrefab/qText.prefab
+- Assets/MyPrefab/timerText.prefab
+- Assets/MyPrefab/mainText.prefab
 - Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab
 - Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
 - Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
 Dependencies:
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_mat0
-- D:/UnityProjects/QuestKeyboard0.1/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/UnityProjects/QuestKeyboard/OVRAssetBundles/OVRMasterBundle/asset_fbx0
