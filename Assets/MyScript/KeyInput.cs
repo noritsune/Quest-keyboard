@@ -47,15 +47,32 @@ public class KeyInput : MonoBehaviour
     //衝突時
     private void OnTriggerEnter(Collider other)
     {
+        //putChar(other);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        //pauseInput();
+    }
+
+    private IEnumerator DelayMethod(float waitTime, Action action)
+    {
+        yield return new WaitForSeconds(waitTime);
+        action();
+    }
+    
+    public void putChar(Collider other)
+    {
+
         if (mainText.color == Color.green &&
             (other.gameObject.tag == "oya" ||
              other.gameObject.tag == "hito" ||
              other.gameObject.tag == "naka" ||
              other.gameObject.tag == "kusuri" ||
-             other.gameObject.tag == "ko" ))
+             other.gameObject.tag == "ko"))
         {
             animator.SetTrigger("KeyDownTrigger");
-            
+
 
             animator.SetTrigger("KeyUpTrigger");
 
@@ -66,8 +83,8 @@ public class KeyInput : MonoBehaviour
                     break;
 
                 case "Enter":
-                    
-                    if(typingGameManager.isGaming)
+
+                    if (typingGameManager.isGaming)
                     {
                         typingGameManager.Check();
                     }
@@ -82,7 +99,7 @@ public class KeyInput : MonoBehaviour
                                 isEnter = false;
                             }
                         }
-                        if(isEnter) mainText.text += "↲\n";
+                        if (isEnter) mainText.text += "↲\n";
                     }
                     break;
 
@@ -133,7 +150,7 @@ public class KeyInput : MonoBehaviour
                     if (!typingGameManager.isGaming)
                     {
                         rigidBody.isKinematic = false;
-                        typingGameManager.cnt = 0 ;
+                        typingGameManager.cnt = 0;
                     }
 
                     break;
@@ -174,7 +191,7 @@ public class KeyInput : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    public void pauseInput()
     {
         float time = 0.2f;
         if (mainText.color == Color.blue) time = 0.5f;
@@ -182,10 +199,10 @@ public class KeyInput : MonoBehaviour
 
         StartCoroutine(DelayMethod(time, () =>
         {
-            if(mainText.color == Color.blue || mainText.color == Color.red)
+            if (mainText.color == Color.blue || mainText.color == Color.red)
             {
                 mainText.text = "";
-                if(mainText.color == Color.blue)
+                if (mainText.color == Color.blue)
                 {
                     typingGameManager.QTextUpdate();
                 }
@@ -196,14 +213,6 @@ public class KeyInput : MonoBehaviour
             }
             mainText.color = Color.green;
         }));
-
     }
-
-    private IEnumerator DelayMethod(float waitTime, Action action)
-    {
-        yield return new WaitForSeconds(waitTime);
-        action();
-    }
-    
 }
 

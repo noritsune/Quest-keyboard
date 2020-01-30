@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 3846239205271253059}
   - component: {fileID: 4064468450934826910}
   - component: {fileID: 4260573565277961114}
+  - component: {fileID: 478905535183887549}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -60,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 507628599720598823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.00778, y: 0, z: 0}
-  m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
+  m_LocalScale: {x: 0.025, y: 0.025, z: 0.025}
   m_Children: []
   m_Father: {fileID: 7826841171760790425}
   m_RootOrder: 0
@@ -124,6 +125,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &478905535183887549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507628599720598823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d201a11a0168f64c989766cf111dbce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchingCol: {fileID: 0}
 --- !u!1 &1012014599143739362
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,8 +164,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012014599143739362}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0.00126, y: 0.00767, z: -0.0072}
-  m_LocalScale: {x: 0.0020387298, y: 0.0020387298, z: 0.0020387298}
+  m_LocalPosition: {x: 0.00171, y: 0.0081, z: -0.0072}
+  m_LocalScale: {x: 0.001773695, y: 0.001773695, z: 0.001773695}
   m_Children: []
   m_Father: {fileID: 7826841171760790425}
   m_RootOrder: 1
@@ -173,7 +187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 787842e8f8a0ba94fb9ef4a10dc16fc0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -212,7 +226,7 @@ TextMesh:
   m_FontSize: 70
   m_FontStyle: 1
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 069548b0953b07d468d87172af61aa76, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4278190080
